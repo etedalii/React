@@ -2,6 +2,7 @@ import "./NewExpense.css";
 import ExpenseForm from "./ExpenseForm";
 
 const NewExpense = (props) => {
+  
   const SaveExpenseDataHandler = (edata) => {
     const expenseData = {
       ...edata,
